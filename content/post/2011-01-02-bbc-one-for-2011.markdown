@@ -1,0 +1,33 @@
+---
+author: ewmanning
+comments: true
+date: 2011-01-02 09:13:19+00:00
+layout: post
+link: https://edwardmanning.wordpress.com/2011/01/02/bbc-one-for-2011/
+slug: bbc-one-for-2011
+title: BBC One for 2011 looks absolutely fantastic...
+wordpress_id: 91
+categories:
+- TV
+tags:
+- bbc
+- candy club
+- doctor who
+- exile
+- frozen planet
+- human planet
+- luther
+- mrs brown's boys
+- outcasts
+- planet dinosaur
+- sherlock
+- silk
+- south riding
+- zen
+---
+
+{{< youtube FIKFxP2Fy84 >}}
+
+[Zen](http://www.bbc.co.uk/programmes/b00x9x43) starts tonight at 9pm.
+
+You can see more programmes at [http://www.bbc.co.uk/bbcone/](http://www.bbc.co.uk/bbcone/) and [http://www.bbc.co.uk/tv/comingup/](http://www.bbc.co.uk/tv/comingup/).
