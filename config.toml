@@ -1,4 +1,4 @@
-baseurl = "http://edwardmanning.com/"
+baseurl = "/"
 theme = "blackburn"
 languageCode = "en-us"
 title = "Edward Manning"
