@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Batch File on Edward Manning</title>
+    <link>http://edwardmanning.com/tags/batch-file/</link>
+    <description>Recent content in Batch File on Edward Manning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 13 Sep 2009 18:27:09 +0000</lastBuildDate>
+    <atom:link href="http://edwardmanning.com/tags/batch-file/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Batch File Comments</title>
+      <link>http://edwardmanning.com/2009/09/13/batch-file-comments/</link>
+      <pubDate>Sun, 13 Sep 2009 18:27:09 +0000</pubDate>
+      
+      <guid>http://edwardmanning.com/2009/09/13/batch-file-comments/</guid>
+      <description>&lt;p&gt;Recently I needed to add a comment in a batch file and I couldn’t remember how to do it. Google proved somewhat elusive in providing adequate results and so the search took longer than it should have done.&lt;/p&gt;
+
+&lt;p&gt;For posterity, you can add a comment to a windows batch file by adding “REM” to the start of the line.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;REM This is a comment  
+REM This is also a comment  
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I was using the batch file to automate the encryption of the system.identity element for multiple sites on a web server. I’ll cover the syntax for that in a separate post.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

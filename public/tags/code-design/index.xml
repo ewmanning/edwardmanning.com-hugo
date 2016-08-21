@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Code Design on Edward Manning</title>
+    <link>http://edwardmanning.com/tags/code-design/</link>
+    <description>Recent content in Code Design on Edward Manning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 21 Feb 2014 14:28:58 +0000</lastBuildDate>
+    <atom:link href="http://edwardmanning.com/tags/code-design/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>UI with Powershell Calls</title>
+      <link>http://edwardmanning.com/2014/02/21/ui-with-powershell-calls/</link>
+      <pubDate>Fri, 21 Feb 2014 14:28:58 +0000</pubDate>
+      
+      <guid>http://edwardmanning.com/2014/02/21/ui-with-powershell-calls/</guid>
+      <description>&lt;p&gt;(From internal blog - 5 January 2012)&lt;/p&gt;
+
+&lt;p&gt;All Microsoft applications are now written so the admin functionality is executed via powershell. The UI simply calls these powershell scripts.&lt;/p&gt;
+
+&lt;p&gt;Advantage is that full functionality of the applications can be scripted instead.
+Used to be the case that the scripting was bolted on afterwards. This meant that the scripting could not always perform the same tasks as the UI could.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://edwardmanning.com/static/2014/02/ui-ps-code.png&#34; alt=&#34;ui-ps-code&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

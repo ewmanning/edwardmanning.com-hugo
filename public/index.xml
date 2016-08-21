@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Edward Manning</title>
+    <link>http://edwardmanning.com/</link>
+    <description>Recent content on Edward Manning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 21 Feb 2014 14:28:58 +0000</lastBuildDate>
+    <atom:link href="http://edwardmanning.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>UI with Powershell Calls</title>
+      <link>http://edwardmanning.com/2014/02/21/ui-with-powershell-calls/</link>
+      <pubDate>Fri, 21 Feb 2014 14:28:58 +0000</pubDate>
+      
+      <guid>http://edwardmanning.com/2014/02/21/ui-with-powershell-calls/</guid>
+      <description>&lt;p&gt;(From internal blog - 5 January 2012)&lt;/p&gt;
+
+&lt;p&gt;All Microsoft applications are now written so the admin functionality is executed via powershell. The UI simply calls these powershell scripts.&lt;/p&gt;
+
+&lt;p&gt;Advantage is that full functionality of the applications can be scripted instead.
+Used to be the case that the scripting was bolted on afterwards. This meant that the scripting could not always perform the same tasks as the UI could.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://edwardmanning.com/static/2014/02/ui-ps-code.png&#34; alt=&#34;ui-ps-code&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>PL/SQL - How to Remove Trailing Zeros but Keep Leading Zero</title>
+      <link>http://edwardmanning.com/2014/02/21/plsql-how-to-remove-trailing-zeros-but-keep-leading-zero/</link>
+      <pubDate>Fri, 21 Feb 2014 11:49:59 +0000</pubDate>
+      
+      <guid>http://edwardmanning.com/2014/02/21/plsql-how-to-remove-trailing-zeros-but-keep-leading-zero/</guid>
+      <description>&lt;p&gt;WITH T AS
+    (
+      SELECT 100 AS EXAMPLE FROM DUAL
+      UNION
+      SELECT 98.336 AS EXAMPLE FROM DUAL
+      UNION
+      SELECT 25 AS EXAMPLE FROM DUAL
+    )&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;SELECT 
+  EXAMPLE / 100 AS EXAMPLE_1,
+  TO_CHAR(EXAMPLE / 100) AS EXAMPLE_2,
+  RTRIM(TO_CHAR(EXAMPLE / 100, &#39;FM0.999999999999&#39;), &#39;.&#39;) AS EXAMPLE_3
+FROM T;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://edwardmanning.com/static/2014/02/plsql-leading-trailing-zeros.png&#34; alt=&#34;PL/SQL leading zero with no trailing zeros&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Thanks to &lt;a href=&#34;https://community.oracle.com/message/9625400&#34;&gt;Oracle Community&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Standalone Flash Player (Flash Projector)</title>
+      <link>http://edwardmanning.com/2011/05/26/standalone-adobe-flash-player/</link>
+      <pubDate>Thu, 26 May 2011 17:14:53 +0000</pubDate>
+      
+      <guid>http://edwardmanning.com/2011/05/26/standalone-adobe-flash-player/</guid>
+      <description>&lt;p&gt;It took me a while to find this. Only because I didn&amp;rsquo;t read the actual page! There&amp;rsquo;s 3 highly visible links leading you away from the standalone player which is below. Adobe call their standalone player a &amp;ldquo;projector&amp;rdquo;.&lt;/p&gt;
+
+&lt;p&gt;Update: It would help if I posted a link wouldn&amp;rsquo;t it :)
+&lt;a href=&#34;http://www.adobe.com/support/flashplayer/downloads.html&#34;&gt;http://www.adobe.com/support/flashplayer/downloads.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;If you can&amp;rsquo;t find it either, take a look at the picture below.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://edwardmanning.com/static/2011/05/standalone-flash-player.png&#34; alt=&#34;Standalone Flash Player&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Google Doodle - My Favourite</title>
+      <link>http://edwardmanning.com/2011/05/09/google-doodle-my-favourite/</link>
+      <pubDate>Mon, 09 May 2011 08:09:05 +0000</pubDate>
+      
+      <guid>http://edwardmanning.com/2011/05/09/google-doodle-my-favourite/</guid>
+      <description>&lt;p&gt;The latest Google doodles celebrating the 76th birthday of Roger Hargreaves are simply outstanding. My favourite has to be Mr Rush.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://edwardmanning.com/static/2011/05/mrrush.png&#34; alt=&#34;Mr Rush&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>BBC One for 2011 looks absolutely fantastic...</title>
+      <link>http://edwardmanning.com/2011/01/02/bbc-one-for-2011/</link>
+      <pubDate>Sun, 02 Jan 2011 09:13:19 +0000</pubDate>
+      
+      <guid>http://edwardmanning.com/2011/01/02/bbc-one-for-2011/</guid>
+      <description>
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/FIKFxP2Fy84&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+
+
+&lt;p&gt;&lt;a href=&#34;http://www.bbc.co.uk/programmes/b00x9x43&#34;&gt;Zen&lt;/a&gt; starts tonight at 9pm.&lt;/p&gt;
+
+&lt;p&gt;You can see more programmes at &lt;a href=&#34;http://www.bbc.co.uk/bbcone/&#34;&gt;http://www.bbc.co.uk/bbcone/&lt;/a&gt; and &lt;a href=&#34;http://www.bbc.co.uk/tv/comingup/&#34;&gt;http://www.bbc.co.uk/tv/comingup/&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Flash without DLM</title>
+      <link>http://edwardmanning.com/2010/11/20/flash-without-dlm/</link>
+      <pubDate>Sat, 20 Nov 2010 16:49:31 +0000</pubDate>
+      
+      <guid>http://edwardmanning.com/2010/11/20/flash-without-dlm/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://edwardmanning.com/static/2010/11/flashdlm.png&#34; alt=&#34;Flash without DLM&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Want to download and install flash without the download manager? I know I do.&lt;/p&gt;
+
+&lt;p&gt;Why force installation of a download manager for files that are only a few megabytes? It’s an overhead that simply isn’t required. I don’t need any more rubbish installed on my computer and neither do you.&lt;/p&gt;
+
+&lt;p&gt;The links below will take you to the official install files. Download to your local machine and install directly.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Flash installer for Firefox, Safari and Opera&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://fpdownload.adobe.com/get/flashplayer/current/install_flash_player.exe&#34;&gt;http://fpdownload.adobe.com/get/flashplayer/current/install_flash_player.exe&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Flash installer for Internet Explorer&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://fpdownload.adobe.com/get/flashplayer/current/install_flash_player_ax.exe&#34;&gt;http://fpdownload.adobe.com/get/flashplayer/current/install_flash_player_ax.exe&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Quotes To Make You Think</title>
+      <link>http://edwardmanning.com/2010/09/18/quotes-to-make-you-think/</link>
+      <pubDate>Sat, 18 Sep 2010 12:17:23 +0000</pubDate>
+      
+      <guid>http://edwardmanning.com/2010/09/18/quotes-to-make-you-think/</guid>
+      <description>&lt;p&gt;&amp;ldquo;Far better it is to dare mighty things, to win glorious triumphs, even  though checkered by failure, than to take rank with those poor souls who  neither enjoy much nor suffer much, because they live in the gray  twilight that knows neither victory nor defeat.&amp;rdquo; &amp;ndash; Theodore Roosevelt&lt;/p&gt;
+
+&lt;p&gt;&amp;ldquo;It is not the critic who counts, not the man who points  out how the strong man stumbled, or where the doer of deeds could have  done them better.  The credit belongs to the man who is actually in the  arena; whose face is marred by dust and sweat and blood; who strives  valiantly; who errs and comes short again and again; who knows the great  enthusiasms, the great devotions, and spends himself in a worthy cause;  who, at best, knows in the end the triumph of high achievement; and  who, at the worst, if he fails, at least fails while daring greatly, so  that his place shall never be with those cold and timid souls who know  neither victory nor defeat.&amp;rdquo; &amp;ndash;Theodore Roosevelt&lt;/p&gt;
+
+&lt;p&gt;&amp;ldquo;Finish each day and be done with it. You have done what you could; some  blunders and absurdities have crept in; forget them as soon as you can.  Tomorrow is a new day; you shall begin it serenely and with too high a  spirit to be encumbered with your oldnonsense.&amp;rdquo; &amp;ndash; Ralph Waldo Emerson&lt;/p&gt;
+
+&lt;p&gt;&amp;ldquo;You don&amp;rsquo;t have to change that much for it to make a great deal of  difference. A few simple disciplines can have a major impact on how your  life works out in the next 90 days, let alone in the next 12 months or  the next 3 years.&amp;rdquo; &amp;ndash; Jim Rohn&lt;/p&gt;
+
+&lt;p&gt;&amp;ldquo;Earn as much money as you possibly can and as quickly as you can. The  sooner you get money out of the way, the sooner you will be able to get  to the rest of your problems in style.&amp;rdquo;&amp;ndash; Jim Rohn&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Java - The updater that won&#39;t die...</title>
+      <link>http://edwardmanning.com/2010/04/24/java-the-updater-that-wont-die/</link>
+      <pubDate>Sat, 24 Apr 2010 09:50:47 +0000</pubDate>
+      
+      <guid>http://edwardmanning.com/2010/04/24/java-the-updater-that-wont-die/</guid>
+      <description>
+
+&lt;!-- ![Java Control Panel Before](/static/2010/04/javacontrolpanel_24-04-2010_10-35-14.png)  --&gt;
+
+&lt;p&gt;Well, I&amp;rsquo;ve been having problems with Java the last couple of weeks.&lt;/p&gt;
+
+&lt;p&gt;No, I don&amp;rsquo;t want to install every point release.&lt;/p&gt;
+
+&lt;p&gt;When I say &amp;ldquo;Do not update&amp;rdquo;, I really mean it.&lt;/p&gt;
+
+&lt;p&gt;Seems Java&amp;rsquo;s hard of hearing. Despite unchecking the &amp;ldquo;Check for Updates Automatically&amp;rdquo; check box, it was still checking for updates and trying to install them.&lt;/p&gt;
+
+&lt;p&gt;Turns out that Java&amp;rsquo;s Control Panel will only accept changes made by Administrators, so any changes you make will be quietly ignored.&lt;/p&gt;
+
+&lt;h4 id=&#34;solution-for-vista-32bit&#34;&gt;Solution (for Vista 32bit):&lt;/h4&gt;
+
+&lt;p&gt;Click &amp;ldquo;Start&amp;rdquo;.&lt;/p&gt;
+
+&lt;p&gt;Copy &amp;ldquo;C:\Program Files\Java\&amp;rdquo; into the search area at the bottom.&lt;/p&gt;
+
+&lt;p&gt;Open the bin folder inside the highest JRE release number (_jre1.6.0&lt;em&gt;07\bin&lt;/em&gt; in my case).&lt;/p&gt;
+
+&lt;p&gt;Right click &amp;ldquo;javacpl.exe&amp;rdquo; and select &amp;ldquo;Run As Administrator&amp;rdquo;.&lt;/p&gt;
+
+&lt;p&gt;Unselect &amp;ldquo;Check for Updates Automatically&amp;rdquo; and click OK. You&amp;rsquo;re done. No more Java updates. You can still update manually from the Java Control Panel whenever you want.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://edwardmanning.com/static/2010/04/javacontrolpanel_24-04-2010_10-22-24.png&#34; alt=&#34;Java Control Panel&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Accessing SQL Server 2005 on Vista</title>
+      <link>http://edwardmanning.com/2010/02/01/accessing-sql-server-2005-on-vista/</link>
+      <pubDate>Mon, 01 Feb 2010 13:28:48 +0000</pubDate>
+      
+      <guid>http://edwardmanning.com/2010/02/01/accessing-sql-server-2005-on-vista/</guid>
+      <description>&lt;p&gt;Windows Admins are not automatically SQL Server 2005 Admins. There&amp;rsquo;s a provisioning tool that runs at the end of the service pack setup that fixes this. If you skip past it or SQL Server isn&amp;rsquo;t running then you need to run the tool separately.&lt;/p&gt;
+
+&lt;p&gt;You can do this by running the &amp;ldquo;SQL Server Surface Area Configuration&amp;rdquo; tool and clicking &amp;ldquo;Add New Administrator&amp;rdquo;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Batch File Comments</title>
+      <link>http://edwardmanning.com/2009/09/13/batch-file-comments/</link>
+      <pubDate>Sun, 13 Sep 2009 18:27:09 +0000</pubDate>
+      
+      <guid>http://edwardmanning.com/2009/09/13/batch-file-comments/</guid>
+      <description>&lt;p&gt;Recently I needed to add a comment in a batch file and I couldn’t remember how to do it. Google proved somewhat elusive in providing adequate results and so the search took longer than it should have done.&lt;/p&gt;
+
+&lt;p&gt;For posterity, you can add a comment to a windows batch file by adding “REM” to the start of the line.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;REM This is a comment  
+REM This is also a comment  
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I was using the batch file to automate the encryption of the system.identity element for multiple sites on a web server. I’ll cover the syntax for that in a separate post.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The best advice I&#39;ve ever seen...</title>
+      <link>http://edwardmanning.com/2009/06/11/the-best-advice-ive-ever-seen/</link>
+      <pubDate>Thu, 11 Jun 2009 07:48:28 +0000</pubDate>
+      
+      <guid>http://edwardmanning.com/2009/06/11/the-best-advice-ive-ever-seen/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;&amp;lsquo;Life should NOT be a journey to the grave with the intention&lt;br /&gt;
+of arriving safely in an attractive and well preserved body,&lt;br /&gt;
+but rather to skid in sideways -&lt;br /&gt;
+Chardonnay in one hand - chocolate in the other -&lt;br /&gt;
+body thoroughly used up, totally worn out and&lt;br /&gt;
+screaming &amp;lsquo;WOO HOO, What a Ride&amp;rsquo;&lt;/strong&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Thou didst thy best. That is success.</title>
+      <link>http://edwardmanning.com/2009/03/30/thou-didst-thy-best-that-is-success/</link>
+      <pubDate>Mon, 30 Mar 2009 19:51:58 +0000</pubDate>
+      
+      <guid>http://edwardmanning.com/2009/03/30/thou-didst-thy-best-that-is-success/</guid>
+      <description>&lt;p&gt;I was watching &lt;a href=&#34;http://www.ted.com/index.php/talks/john_wooden_on_the_difference_between_winning_and_success.html&#34;&gt;John Wooden&lt;/a&gt; on &lt;a href=&#34;http://www.ted.com/&#34;&gt;Ted Talks&lt;/a&gt; when he made the following quote:&lt;/p&gt;
+
+&lt;blockquote&gt;At God&#39;s footstool, to confess,
+A poor soul knelt and bowed his head.
+&#34;I failed,&#34; he cried. The master said,
+&#34;Thou didst thy best. That is success.&#34;&lt;/blockquote&gt;
+
+&lt;p&gt;And I have to say, I was rather moved.&lt;/p&gt;
+
+&lt;blockquote&gt;&#34;Thou didst thy best. That is success.&#34;&lt;/blockquote&gt;
+
+&lt;p&gt;All too often, we look around and compare ourselves against what we see. We rate our achievements against those of other people, when the true test of accomplishment is against &lt;strong&gt;our&lt;/strong&gt; personal best, not someone else’s.&lt;/p&gt;
+
+&lt;p&gt;In the past, I have not done my best. Worse - I have not even &lt;em&gt;tried&lt;/em&gt; to do my best. I have coasted along, doing just enough to get by. Just enough to pay the bills. Just enough to get through school. I feel I have wasted those years. I have whittled away at time, till all that was left is the shavings of my life scattered on the floor.&lt;/p&gt;
+
+&lt;p&gt;No more.&lt;/p&gt;
+
+&lt;p&gt;It changes. Now. Today. Right this second.&lt;/p&gt;
+
+&lt;p&gt;No matter how poor at something I turn out to be, I want to be able to look at my progress and say &lt;em&gt;&amp;ldquo;I did my best. That is success.&amp;rdquo;&lt;/em&gt; That is the promise to myself.&lt;/p&gt;
+
+&lt;p&gt;See you on the far side of better.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Programming and Dot Net Resources</title>
+      <link>http://edwardmanning.com/2009/03/14/programming-and-dot-net-resources/</link>
+      <pubDate>Sat, 14 Mar 2009 17:48:56 +0000</pubDate>
+      
+      <guid>http://edwardmanning.com/2009/03/14/programming-and-dot-net-resources/</guid>
+      <description>&lt;p&gt;A list of resources that I and the people I’m training with have found useful.&lt;/p&gt;
+
+&lt;p&gt;General&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.codeproject.com/&#34;&gt;http://www.codeproject.com/&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&#34;http://www.csharp-station.com/&#34;&gt;http://www.csharp-station.com/&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&#34;http://www.dotnetspider.com/tutorials/&#34;&gt;http://www.dotnetspider.com/tutorials/&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&#34;http://msdn2.microsoft.com/en-us/default.aspx&#34;&gt;http://msdn2.microsoft.com/en-us/default.aspx&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&#34;http://www.c-sharpcorner.com/&#34;&gt;http://www.c-sharpcorner.com/&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&#34;http://www.functionx.com/csharp/index.htm&#34;&gt;http://www.functionx.com/csharp/index.htm&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&#34;http://visualstudiomagazine.com/&#34;&gt;http://visualstudiomagazine.com&lt;/a&gt;&lt;br /&gt;
+&lt;s&gt;&lt;a href=&#34;http://en.csharp-online.net/Main()&#34;&gt;http://en.csharp-online.net/Main()&lt;/a&gt;&lt;/s&gt; No longer available&lt;br /&gt;
+&lt;a href=&#34;http://www.searchdotnet.com/&#34;&gt;http://www.searchdotnet.com/&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&#34;http://www.jpboodhoo.com/blog/&#34;&gt;http://www.jpboodhoo.com/blog/&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&#34;http://code.professor-mustard.org/index.htm&#34;&gt;http://code.professor-mustard.org/index.htm&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&#34;http://www.jaggersoft.com/csharp.html&#34;&gt;http://www.jaggersoft.com/csharp.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;OO&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.dofactory.com/Patterns/Patterns.aspx&#34;&gt;http://www.dofactory.com/Patterns/Patterns.aspx&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&#34;http://www.atomicobject.com/pages/OO+Programming&#34;&gt;http://www.atomicobject.com/pages/OO+Programming&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&#34;http://xunitpatterns.com/index.html&#34;&gt;http://xunitpatterns.com/index.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;SQL&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.techonthenet.com/&#34;&gt;http://www.techonthenet.com/&lt;/a&gt;&lt;br /&gt;
+&lt;s&gt;&lt;a href=&#34;http://blogs.msdn.com/adonet/archive/2008/03/26/stored-procedure-mapping.aspx&#34;&gt;http://blogs.msdn.com/adonet/archive/2008/03/26/stored-procedure-mapping.aspx&lt;/a&gt;&lt;/s&gt; No longer available&lt;br /&gt;
+&lt;a href=&#34;http://www.oracle.com/pls/db102/portal.portal_db?selected=3&#34;&gt;http://www.oracle.com/pls/db102/portal.portal_db?selected=3&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Interview Resources</title>
+      <link>http://edwardmanning.com/2009/03/14/interview-resources/</link>
+      <pubDate>Sat, 14 Mar 2009 17:17:05 +0000</pubDate>
+      
+      <guid>http://edwardmanning.com/2009/03/14/interview-resources/</guid>
+      <description>&lt;p&gt;Some resources I have found useful while preparing for interviews.&lt;/p&gt;
+
+&lt;p&gt;Interview Preparation&lt;/p&gt;
+
+&lt;p&gt;&lt;s&gt;&lt;a href=&#34;http://www.nijobs.com/forum/IndividualArticle.aspx?ForumTypeID=2917&amp;amp;SID=4&amp;amp;CID=11&#34;&gt;10 Do’s of Interviews&lt;/a&gt;&lt;/s&gt;  No longer available&lt;br /&gt;
+&lt;s&gt;&lt;a href=&#34;http://www.nijobs.com/forum/IndividualArticle.aspx?ForumTypeID=321&amp;amp;SID=4&amp;amp;CID=11&#34;&gt;Top 25 Interview Questions&lt;/a&gt;&lt;/s&gt; No longer available&lt;br /&gt;
+&lt;a href=&#34;http://www.amazon.co.uk/Great-Answers-Tough-Interview-Questions/dp/0749443561/&#34;&gt;Great Answers to Tough Interiew Questions&lt;/a&gt; (&lt;a href=&#34;http://books.google.co.uk/books?id=5HZGjav7XvgC&amp;amp;printsec=frontcover&#34;&gt;Preview book on Google Books&lt;/a&gt;)&lt;br /&gt;
+&lt;a href=&#34;http://www.kent.ac.uk/careers/interviews/ivgeneral.htm&#34;&gt;Practice Interview Questions&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Personal Branding&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.lesleyeverett.com/&#34;&gt;Lesley Everett&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&#34;http://www.amazon.co.uk/Drop-Dead-Brilliant-Lesley-Everett/dp/0071494278/&#34;&gt;Drop Dead Brilliant&lt;/a&gt; (book)&lt;br /&gt;
+&lt;a href=&#34;http://www.amazon.co.uk/Branding-Yourself-Sound-Behave-Success/dp/0330481487/&#34;&gt;Branding Yourself: How to Look, Sound and Behave Your Way to Success&lt;/a&gt; (book)&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Java on Edward Manning</title>
+    <link>http://edwardmanning.com/tags/java/</link>
+    <description>Recent content in Java on Edward Manning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 24 Apr 2010 09:50:47 +0000</lastBuildDate>
+    <atom:link href="http://edwardmanning.com/tags/java/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Java - The updater that won&#39;t die...</title>
+      <link>http://edwardmanning.com/2010/04/24/java-the-updater-that-wont-die/</link>
+      <pubDate>Sat, 24 Apr 2010 09:50:47 +0000</pubDate>
+      
+      <guid>http://edwardmanning.com/2010/04/24/java-the-updater-that-wont-die/</guid>
+      <description>
+
+&lt;!-- ![Java Control Panel Before](/static/2010/04/javacontrolpanel_24-04-2010_10-35-14.png)  --&gt;
+
+&lt;p&gt;Well, I&amp;rsquo;ve been having problems with Java the last couple of weeks.&lt;/p&gt;
+
+&lt;p&gt;No, I don&amp;rsquo;t want to install every point release.&lt;/p&gt;
+
+&lt;p&gt;When I say &amp;ldquo;Do not update&amp;rdquo;, I really mean it.&lt;/p&gt;
+
+&lt;p&gt;Seems Java&amp;rsquo;s hard of hearing. Despite unchecking the &amp;ldquo;Check for Updates Automatically&amp;rdquo; check box, it was still checking for updates and trying to install them.&lt;/p&gt;
+
+&lt;p&gt;Turns out that Java&amp;rsquo;s Control Panel will only accept changes made by Administrators, so any changes you make will be quietly ignored.&lt;/p&gt;
+
+&lt;h4 id=&#34;solution-for-vista-32bit&#34;&gt;Solution (for Vista 32bit):&lt;/h4&gt;
+
+&lt;p&gt;Click &amp;ldquo;Start&amp;rdquo;.&lt;/p&gt;
+
+&lt;p&gt;Copy &amp;ldquo;C:\Program Files\Java\&amp;rdquo; into the search area at the bottom.&lt;/p&gt;
+
+&lt;p&gt;Open the bin folder inside the highest JRE release number (_jre1.6.0&lt;em&gt;07\bin&lt;/em&gt; in my case).&lt;/p&gt;
+
+&lt;p&gt;Right click &amp;ldquo;javacpl.exe&amp;rdquo; and select &amp;ldquo;Run As Administrator&amp;rdquo;.&lt;/p&gt;
+
+&lt;p&gt;Unselect &amp;ldquo;Check for Updates Automatically&amp;rdquo; and click OK. You&amp;rsquo;re done. No more Java updates. You can still update manually from the Java Control Panel whenever you want.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://edwardmanning.com/static/2010/04/javacontrolpanel_24-04-2010_10-22-24.png&#34; alt=&#34;Java Control Panel&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
